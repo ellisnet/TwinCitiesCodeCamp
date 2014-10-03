@@ -10,3 +10,5 @@ I have also given presentations at [MN Enterprise Mobile](http://www.meetup.com/
 
   - On October 4th 2014 I gave a presentation about Xamarin.Forms at Twin Cities Code Camp - click on the folder above for more information about that presentation, and the code I used, and *lots* of information about Xamarin.Forms.
   - (More presentations to follow, I hope)
+
+Short link to get to this repo: http://bit.ly/ellis-tccc
