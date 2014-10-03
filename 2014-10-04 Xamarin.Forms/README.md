@@ -28,7 +28,13 @@ Information about Xamarin.Forms
 Portable.Data.Sqlite
 --------------------
 
-Coming soon...
+As you probably know, the standard way of storing local database-type-data on mobile devices is in SQLite.  This small-footprint SQL-based database engine comes built-in on iOS and Android devices, and is easily added to all Windows platform. SQLite is extremely well supported in the Xamarin community, with many libraries and add-ons.
+
+I had a need to access my SQLite databases on Android, iOS and Windows from shared code (i.e. from a Portable Class Library). And I wanted things to work the same across platforms.  Also, I like to have direct ADO.NET-style access to the tables, columns and data; I like SqlCommands and SqlDataReaders. Finally, I wanted to be able selectively encrypt data in my databases.
+
+So, there are excellent portable (PCL) libraries for accessing SQLite data - [here](https://github.com/ericsink/SQLitePCL.raw) and [here](https://sqlitepcl.codeplex.com/) - check those out if you are interested.  Also, there is a great encrypted SQLite solution called SQLCipher - available [here](https://www.zetetic.net/sqlcipher/) - though it is not free for Xamarin developers.
+
+But there was nothing that combined everything I was looking for into a single portable (PCL) library - *so I created it*.  It is called Portable.Data.Sqlite - and it is available as a [NuGet package](http://www.nuget.org/packages/Portable.Data.Sqlite) and all [source code is available on GitHub](https://github.com/ellisnet/Portable.Data.Sqlite).  It works **great** with Xamarin.Forms - I tweaked it to be very easy to use with that framework - and there is a ton of information about how to use it in the [GitHub repository](https://github.com/ellisnet/Portable.Data.Sqlite). Check it out and let me know if you have any questions or problems.
 
 Sample Project Code - NAME HERE
 -------------------------------
