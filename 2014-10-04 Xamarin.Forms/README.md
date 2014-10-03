@@ -6,9 +6,9 @@ Short link to get to this presentation folder: http://bit.ly/xamforms
 Table of Contents
 -----------------
 
-  1. Information (and links to information) about Xamarin.Forms
-  2. Explanation of my cross-platform Sqlite library that works *excellently* with Xamarin.Forms - Portable.Data.Sqlite - and links to get the code and NuGet package
-  3. Sample project code - NAME HERE - information about the sample application/demo project that I will build and demonstrate in my presentation.
+  1. [Information (and links to information) about Xamarin.Forms](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#information-about-xamarinforms)
+  2. [Explanation of my cross-platform Sqlite library](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#portabledatasqlite) that works *excellently* with Xamarin.Forms - Portable.Data.Sqlite - and links to get the code and NuGet package
+  3. [Sample project code - NAME HERE](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#sample-project-code) - information about the sample application/demo project that I will build and demonstrate in my presentation.
 
 Information about Xamarin.Forms
 -------------------------------
@@ -17,7 +17,7 @@ Information about Xamarin.Forms
   * With Xamarin.Forms, all code is written in C# and user-interfaces can (optionally) be written in the XAML mark up language from Microsoft; you can write platform-specific code, but the goal really is to have most of your code be cross-platform in the shared project.
   * The best and most up-to-date source of information about Xamarin.Forms is the [Xamarin documentation site](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/)
   * Xamarin.Forms is not open-source.  It is actually a series of (closed-source) libraries and templates from Xamarin, that can be manually added to your projects as [NuGet packages](http://www.nuget.org/packages/Xamarin.Forms/).  However, there is a growing number of open-source addins or plugins for Xamarin.Forms - especially those available in [Xamarin Forms Labs](https://github.com/XForms/Xamarin-Forms-Labs) - some really great stuff there.
-  * Free videos about Xamarin.Forms - [here](http://blog.xamarin.com/webinar-recording-meet-xamarin.forms/) and  [here](http://blog.xamarin.com/video-xamarin-forms-over-90-code-re-use-and-access-to-native-features/)
+  * **Free videos** about Xamarin.Forms - [here](http://blog.xamarin.com/webinar-recording-meet-xamarin.forms/) and  [here](http://blog.xamarin.com/video-xamarin-forms-over-90-code-re-use-and-access-to-native-features/)
   * As of 10/4/2014 there is an **awesome free book** available for Kindle from Amazon.com from programming legend Charles Petzold.  If you want to learn about Xamarin.Forms, [this is the place to start](http://www.amazon.com/Creating-Xamarin-Forms-Preview-Developer-Reference-ebook/dp/B00NXYJ8DK/). Seriously, stop reading and go get the book now.  The final version is expected Spring 2015, and will probably no longer be free at that point.
   * As of 10/4/2014 there is **another awesome free book** available from Falafel Consulting written by another programming legend, Jesse Liberty.  This book isn't entirely about Xamarin.Forms, but Xamarin.Forms is covered.  Get that book  [here](http://falafel.com/landing-pages/learning-xamarin-ebook-download).
   * There is also an excellent series of blog posts about Xamarin.Forms from Jesse Liberty - available [here](http://blog.falafel.com/author/jesse-liberty/) - look for posts from July 2014.
