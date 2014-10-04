@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+x:Class="PatientCheckup.LoginPage" 
+Title="{Binding PageTitle}">
+	<ContentPage.Content>
+	  <StackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="Center">
+	    <Label Text="{Binding UsernameLabel}" Font="Large" />
+	    <Entry Placeholder="Username" IsPassword="False" Text="{Binding Username, Mode=TwoWay}" />
+	    <Label Text="Password:" Font="Large" />
+	    <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password, Mode=TwoWay}" />
+	    <Label Text="Confirm password:" Font="Large" IsVisible="{Binding ShowConfirm}" />
+	    <Entry Placeholder="Password" IsPassword="True" Text="{Binding ConfirmPassword, Mode=TwoWay}" IsVisible="{Binding ShowConfirm}" />
+	    <Button Text="{Binding LoginLabel}" Command="{Binding LoginCommand}" CommandParameter="{Binding UserCredentials}" Font="Large" />
+	  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
