@@ -8,7 +8,7 @@ Table of Contents
 
   1. [Information (and links to information) about Xamarin.Forms](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#information-about-xamarinforms)
   2. [Explanation of my cross-platform SQLite library](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#portabledatasqlite) that works *excellently* with Xamarin.Forms - Portable.Data.Sqlite - and links to get the code and NuGet package
-  3. [Sample project code - NAME HERE](https://github.com/ellisnet/TwinCitiesCodeCamp/tree/master/2014-10-04%20Xamarin.Forms#sample-project-code) - information about the sample application/demo project that I will build and demonstrate in my presentation.
+  3. [Sample project code - Patient Checkup](https://github.com/ellisnet/TwinCitiesCodeCamp/blob/master/2014-10-04%20Xamarin.Forms/README.md#sample-project-code---patient-checkup) - information about the sample application/demo project that I will build and demonstrate in my presentation.
 
 Information about Xamarin.Forms
 -------------------------------
