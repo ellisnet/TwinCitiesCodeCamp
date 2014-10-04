@@ -1,4 +1,4 @@
-Xamarin.Forms Presentation - 10/04/2014
+Xamarin.Forms Presentation - Oct 4 2014
 =======================================
 
 Short link to get to this presentation folder: http://bit.ly/xamforms
