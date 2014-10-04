@@ -50,8 +50,14 @@ But there was nothing that combined everything I was looking for into a single p
 
 Note: Since I would like this information page to be useful to anyone using Xamarin.Forms, it is worth mentioning that when it comes to working with SQLite and Xamarin, most people choose to use the [SQLite.Net library from Frank Krueger](https://github.com/praeclarum/sqlite-net) - it makes working with SQLite easy; and you won't be writing many SQL statements as it handles the actual database operations for you (though you can craft your own SELECT statements).  It also looks like there is a popular [portable (PCL) library available for SQLite.Net from NuGet](http://www.nuget.org/packages/SQLite.Net-PCL/) available that presumably works great with Xamarin.Forms.
 
-Sample Project Code - NAME HERE
--------------------------------
+Sample Project Code - Patient Checkup
+-------------------------------------
 
-Coming soon...
+This is the sample application that I demonstrated during my presentation.  The idea is that it is an app that would be used by a medical professional on a mobile device that they carry around with them, as they do "rounds" and check on patients.
+
+They log into the application, and then view a list of patients. They click on one of the patients in the list and view the "Checkup Notes" for that patient.  Then they can click the Add Checkup Note button and add a new note.
+
+All of the data is stored locally on the device in a SQLite database using my Portable.Data.Sqlite library to encrypt the data - using the EncryptedTable&lt;T&gt; functionality.  The sample demonstrates quite a lot of things, but especially a MVVM pattern with Views (actually XAML Pages) and Models (which inherit from EncryptedTableItem for encryption/SQLite data storage) and ViewModels all pretty well laid out in the appropriate folders.  Platform specific code is kept at an extreme minimum.
+
+There are projects for Visual Studio 2013 and Xamarin Studio.  As of 10/4/2014, it has been pretty well tested on iOS (an iPad) and Android (a tablet device), but not tested at all on a Windows Phone device.
 
